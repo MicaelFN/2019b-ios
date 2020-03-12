@@ -23,6 +23,8 @@ class ViewController: UIViewController {
     
     private var pendingBinaryOperation: (Double, String)!
     
+    private var Brain : CalculatorBrain = CalculatorBrain() //adicionado
+    
     private var displayValue: Double {
         get {
             return Double(display.text!)!
